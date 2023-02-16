@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
+
+.home {
+    background-image: url(./img/carnaval.jpg);
+    background-size: cover;
+   
+}
+
+.historia {
+    background-image: url(./img/carnaval2.jpg);
+    background-size: cover;
+}
+
+.blocos {
+    background-color: bisque;
+}
+
+.bloquinho {
+    margin-right: 10rem;
+    margin-top: 7rem;
+    font-size: 23px;
+}
+
+.card {
+    margin-top: 15rem;
+    margin-left: 45rem;
+}
+
+.car {
+    margin-top: 8rem;
+    margin-left: 20rem;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.margin-top50 {
+    margin-top: 50px;
+}
+
+.margin-top20 {
+    margin-top: 20px;
+}
+
+.btn-red {
+    background-color: #a7ffe2;
+}
+
+.border {
+    display: grid;
+    place-content: center;
+    margin-left: 40px;  
+    margin-right: 40px;
+}
+
+.text-aquamarine {
+  color: #7fffd4;
+}
+
+.font-playfair {
+  font-family: 'Playfair Display', serif;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.h-5px {
+  height: 5px;
+}
+
+.w-45 {
+  width: 45%;
+}
+
+.w-35 {
+  width: 35%;
+}
+
+.font-weight-light {
+  font-weight: 300;
+}
+
+.font-weight-medium {
+  font-weight: 500;
+}
+
+.font-weight-regular {
+  font-weight: 400;
+}
+
+.border-debug {
+  border: 1px solid red;
+}
+
+.w-720px {
+  width: 720px;
+}
+
+.bg-light-green {
+  background-color: #E2FEEF;
+}
+
+.bg-dark-green {
+  background-color: #06351C;
+}
+
+.text-green-dark {
+    color: #06351C;
+  }
+
+.ml-50px {
+  margin-left: 50px;
+}
+
+.pl-50px{
+  padding-left: 50px;
+}
+
+.ml-140px {
+  margin-left: 140px;
+}
+
+.mr-140px {
+  margin-right: 140px;
+}
+
+.w-420px {
+  width: 420px;
+}
+
+.btn-green {
+  background: linear-gradient(180deg, #06351C 0%, #042915 100%);
+  color: #FFFFFF;
+}
+
+.btn-green:hover {
+  color: #FFFFFF;
+}
+
+.font-italic {
+  font-style: italic;
+}
+
+.font-size-3rem {
+  font-size: 3rem;
+}
+
+.font-size-1-5rem {
+  font-size: 1.5rem;
+}
+
+.hw-160px {
+  width: 160px; 
+  height: 160px;
+}
+
+.filter-invert {
+  filter: invert(100%);
+}
+
+.light-theme {
+    color: #000000;
+    background-color: bisque;
+
+  }
+
+  :root {
+    --green: #00FF00;
+    --white: #FFFFFF;
+    --black: #000000;
+  }
+
+  .light-theme {
+    --background-color: var(--black);
+    --fontColor: var(--black);
+  }
+  .dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--green);
+  }
+
+  body {
+    color: var(--fontColor);
+    font-family: helvetica;
+  }
+
+  .botao {
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+  }
+
+  .botao {
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+  }
+
+  .light-theme {
+
+  --fontColor: var(--black);
+  --btnBg: var(--black);
+  --btnFontColor: var(--white);
+}
+
+.dark-theme {
+
+  --fontColor: var(--green);
+  --btnBg: var(--white);
+  --btnFontColor: var(--black);
+}
