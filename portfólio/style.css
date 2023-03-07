@@ -1,0 +1,13 @@
+.font-playfair {
+    font-family: 'Playfair Display', serif;
+  }
+
+.titulo {
+    margin-top: 10rem;
+    
+}
+
+.home {
+    background-image: url(./img/carta.jpg);
+    background-size: cover;
+}
