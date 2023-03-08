@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <script>
+
+       /* let ninja = {
+            nome: "Ninja das Sombras",
+            atirarShuriken: function(){
+                console.log("piun piun");
+            }
+        }
+            ninja.atirarShuriken*/
+
+            function Ninja(nome) {
+                this.nome = nome;
+                this.atirarShuriken = function() {
+                    console.log(this.nome + " piun piun");
+        }
+            }
+           
+                let ninja = new Ninja("Ninja das Sombras");
+            ninja.atirarShuriken();
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        function Ninja(nome, quantidadeShuriken) {
+        this.nome = nome;
+         this.shuriken = quantidadeShuriken;
+         this.atirarShuriken = function() {
+              if (this.shuriken > 0) {
+               console.log(this.nome + " atirou um shuriken piun piun");
+                 this.shuriken--;
+            } else {
+                console.log("Você não tem mais shuriken!");
+          }
+     }
+    }
+
+
+        let ninja = new Ninja("Ninja das Sombras", 5);
+    ninja.atirarShuriken();
+    ninja.atirarShuriken();
+    ninja.atirarShuriken();
+    ninja.atirarShuriken();
+    ninja.atirarShuriken();
+    ninja.atirarShuriken();
+    
+</script>
+
+</body>
+</html>
