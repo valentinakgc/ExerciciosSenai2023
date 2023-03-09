@@ -11,3 +11,34 @@
     background-image: url(./img/carta.jpg);
     background-size: cover;
 }
+
+.imgEu {
+    margin-top: 15rem;
+    margin-left: 75rem;
+    border: 10px solid #2e0202;
+    border-radius: 5px;
+}
+
+.font-times {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .carta {
+    margin-top: -15rem;
+    margin-left: 25rem;
+    margin-right: 40rem;
+  }
+
+  .cartaApr {
+    background-color: rgb(175, 175, 175);
+  }
+
+  .port1 {
+    margin-top: 10rem;
+    margin-left: 20rem;
+  }
+
+  .port2 {
+    margin-top: -10rem;
+    margin-left: 40rem;
+  }
