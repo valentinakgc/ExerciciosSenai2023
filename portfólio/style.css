@@ -4,7 +4,12 @@
 
 .titulo {
     margin-top: 10rem;
+    font-size: 10rem;
     
+}
+
+.V {
+    font-size: 2rem;
 }
 
 .home {
@@ -34,11 +39,22 @@
   }
 
   .port1 {
-    margin-top: 10rem;
-    margin-left: 20rem;
+    margin-top: -20rem;
+    margin-left: 75rem;
   }
 
   .port2 {
-    margin-top: -10rem;
-    margin-left: 40rem;
+    margin-top: 1rem;
+    margin-left: 75rem;
+  }
+
+  .titulo2 {
+    font-size: 10rem;
+    color: #2e0202;
+
+  }
+
+  .grupo {
+    margin-left: 25rem;
+    margin-top: 10rem;
   }
