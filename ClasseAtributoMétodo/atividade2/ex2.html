@@ -10,7 +10,7 @@
     
     <script>
 
-        function Ninja(nome, quantidadeShuriken) {
+       /* function Ninja(nome, quantidadeShuriken) {
         this.nome = nome;
          this.shuriken = quantidadeShuriken;
          this.atirarShuriken = function() {
@@ -31,6 +31,32 @@
     ninja.atirarShuriken();
     ninja.atirarShuriken();
     ninja.atirarShuriken();
+*/
+
+
+
+    class Ninja{
+        constructor(nome, shuriken){
+            this.nome = nome
+            this.shuriken = shuriken
+        }
+        atirarShuriken(){
+            if (this.shuriken > 0) {
+               console.log(this.nome + " atirou um shuriken piun piun");
+                 this.shuriken--;
+            } else {
+                console.log("Você não tem mais shuriken!");
+        }
+    }
+    }
+
+        let ninja = new Ninja("Ninja das Sombras", 3);
+    ninja.atirarShuriken();
+    ninja.atirarShuriken();
+    ninja.atirarShuriken();
+    ninja.atirarShuriken();
+
+
     
 </script>
 
