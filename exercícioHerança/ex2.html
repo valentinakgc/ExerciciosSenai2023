@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+
+class Animal {
+    constructor(nome, comprimento, nuPatas, cor, ambiente, velocidade){
+        this.nome = nome
+        this.comprimento = comprimento
+        this.nuPatas = nuPatas
+        this.cor = cor
+        this.ambiente = ambiente
+        this.velocidade = velocidade
+    }
+
+    alterarNome(novoNome) {
+    this.nome = novoNome;
+    }
+
+    alterarComprimento(novoComprimento) {
+    this.comprimento = novoComprimento;
+    }
+
+    alterarPatas(novoNuPatas) {
+    this.patas = novoNuPatas;
+    }
+
+    alterarCor(novaCor) {
+    this.cor = novaCor;
+    }
+
+    alterarAmbiente(novoAmbiente) {
+    this.ambiente = novoAmbiente;
+    }
+
+    alterarVelocidade(novaVelocidade) {
+    this.velocidade = novaVelocidade;
+    }
+
+    dados() {
+        console.log(`Nome: ${this.nome}`);
+        console.log(`Espécie: ${this.especie}`);
+        console.log(`Comprimento: ${this.comprimento}`);
+        console.log(`Número de Patas: ${this.patas}`);
+        console.log(`Cor: ${this.cor}`);
+        console.log(`Ambiente: ${this.ambiente}`);
+        console.log(`Velocidade: ${this.velocidade}`);
+    }
+
+}
+
+class peixe extends Animal {
+    constructor(nuPatas, ambiente, cor, caracteristica){
+    super(nuPatas, ambiente, cor)
+    this.caracteristica = caracteristica
+    }
+    alterarCaracteristica(novaCaracteristica) {
+    this.caracteristica = novaCaracteristica;
+  }
+
+    Caracteristica() {
+    return this.caracteristica;
+  }
+
+    Dados() {
+        console.log(`Nome: ${this.nome}`);
+        console.log(`Característica: ${this.barbatana}`);
+        console.log(`Comprimento: ${this.comprimento}`);
+        console.log(`Velocidade: ${this.velocidade}`);
+    }
+}
+
+class mamifero extends Animal {
+    constructor(ambiente)
+    super(ambiente)
+    
+}
+
+</script>
+
+</body>
+</html>
