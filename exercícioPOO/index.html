@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+
+//Crie uma classe Animal com atributo nome, cor e alimento
+//Crie o método correr e comer na classe Animal
+//Crie mais duas classes, uma gato e outra cachorro, as duas possuem herança da classe Animal
+//Instanciar pelo menos 1 objeto de cada classe
+
+
+class Animal {
+    constructor(nome, cor, alimento){
+        this.nome = nome
+        this.cor = cor
+        this.alimento = alimento
+    }
+    correr() {
+        console.log('Animal correu');
+    }
+    comer() {
+        console.log('Animal comeu');
+    }
+}
+
+class Gato extends Animal {
+    constructor(nome, cor, alimento){
+        super(nome, cor, alimento)
+    }
+    
+}
+
+class Cachorro extends Animal {
+    constructor(nome, cor, alimento){
+        super(nome, cor, alimento)
+    }
+}
+
+
+let cavalo = new Animal('Cavalo', 'Preto', 'Maçã')
+console.log(cavalo);
+
+let galadriel = new Gato('Galadriel', 'Preta com branco', 'Peixe')
+console.log(galadriel);
+
+let bady = new Cachorro('Bady', 'Branco', 'Ração')
+console.log(bady);
+
+/*
+a) 2/2
+b) 2/2
+c) 1/1
+d) 1/1
+e) 2/2
+f) 1/1
+g) 1/1
+Total 10/10
+*/
+
+
+</script>
+
+</body>
+</html>
