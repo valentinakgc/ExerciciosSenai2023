@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+
+class Loja {
+    constructor(nome, produto){
+        this.nome = nome
+        this.produto = produto
+    }
+    infoNome() {
+        console.log('O nome da loja é ' + this.nome);
+    }
+    vender() {
+        console.log('A loja vende ' + this.produto);
+    }
+    imprimirInfo() {
+        console.log('O nome da loja é ' + this.nome + ' e vende ' + this.produto);
+    }
+}
+
+class Livraria extends Loja {
+    constructor(nome, produto, livro, bairro){
+        super(nome, produto)
+        this.livro = livro
+        this.bairro = bairro
+    }
+    comprar() {
+        console.log('Um ' + this.produto + ' foi comprado');
+    }
+    ler() {
+        console.log('Um livro de ' + this.livro + ' foi lido');
+    }
+    local() {
+        console.log('A livraria está localizada no bairro ' + this.bairro);
+    }
+    imprimirInfo2() {
+        console.log('O nome da livraria é ' + this.nome + ', vende ' + this.produto + ' e possui livros de ' + this.livro);
+    }
+}
+
+let cafeteria = new Loja('CoffeeTime', 'café')
+console.log(cafeteria);
+
+let livro = new Livraria('BookLove', 'livro', 'fantasia', 'Flor de Lótus')
+console.log(livro);
+
+</script>
+
+</body>
+</html>
